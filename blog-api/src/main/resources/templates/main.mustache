@@ -1,0 +1,19 @@
+<html>
+<body>
+<div>
+    <form method ="post">
+      <input type = "text", name = "content", placeholder="type your article here">
+        <input type = "text", name = "title", placeholder="type your title here">
+        <button type ="submit">Apply</button>>
+    </form>
+</div>
+<div>POSTS</div>
+{{#articles}}
+<div>
+    <b>{{id}}</b>
+    <span>{{content}}</span>
+    <i>{{title}}</i>
+ </div>
+{{/articles}}
+</body>>
+</html>>
